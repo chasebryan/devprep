@@ -1,0 +1,2089 @@
+{
+  "categories": {
+    "core": "Version control and everyday command-line tools",
+    "build": "C/C++, build systems, and debugging",
+    "languages": "General-purpose programming languages and package tools",
+    "editors": "Graphical and terminal development environments",
+    "containers": "Containers and local orchestration",
+    "databases": "Local SQL and key-value development",
+    "cloud": "Cloud and infrastructure command-line tools",
+    "science": "Scientific computing and notebooks"
+  },
+  "tools": [
+    {
+      "id": "git",
+      "category": "core",
+      "name": "Git",
+      "packages": {
+        "apt": [
+          "git"
+        ],
+        "dnf": [
+          "git"
+        ],
+        "pacman": [
+          "git"
+        ],
+        "zypper": [
+          "git"
+        ],
+        "apk": [
+          "git"
+        ],
+        "xbps": [
+          "git"
+        ],
+        "emerge": [
+          "dev-vcs/git"
+        ],
+        "nix": [
+          "git"
+        ],
+        "brew": [
+          "git"
+        ],
+        "winget": [
+          "Git.Git"
+        ],
+        "yum": [
+          "git"
+        ]
+      }
+    },
+    {
+      "id": "git-lfs",
+      "category": "core",
+      "name": "Git Large File Storage",
+      "packages": {
+        "apt": [
+          "git-lfs"
+        ],
+        "dnf": [
+          "git-lfs"
+        ],
+        "pacman": [
+          "git-lfs"
+        ],
+        "zypper": [
+          "git-lfs"
+        ],
+        "apk": [
+          "git-lfs"
+        ],
+        "xbps": [
+          "git-lfs"
+        ],
+        "emerge": [
+          "dev-vcs/git-lfs"
+        ],
+        "nix": [
+          "git-lfs"
+        ],
+        "brew": [
+          "git-lfs"
+        ],
+        "winget": [
+          "GitHub.GitLFS"
+        ],
+        "yum": [
+          "git-lfs"
+        ]
+      }
+    },
+    {
+      "id": "github-cli",
+      "category": "core",
+      "name": "GitHub CLI",
+      "packages": {
+        "apt": [
+          "gh"
+        ],
+        "dnf": [
+          "gh"
+        ],
+        "pacman": [
+          "github-cli"
+        ],
+        "zypper": [
+          "gh"
+        ],
+        "apk": [
+          "github-cli"
+        ],
+        "xbps": [
+          "github-cli"
+        ],
+        "emerge": [
+          "dev-util/github-cli"
+        ],
+        "nix": [
+          "gh"
+        ],
+        "brew": [
+          "gh"
+        ],
+        "winget": [
+          "GitHub.cli"
+        ],
+        "yum": [
+          "gh"
+        ]
+      }
+    },
+    {
+      "id": "curl",
+      "category": "core",
+      "name": "HTTP transfer tools",
+      "packages": {
+        "apt": [
+          "curl",
+          "ca-certificates"
+        ],
+        "dnf": [
+          "curl",
+          "ca-certificates"
+        ],
+        "pacman": [
+          "curl",
+          "ca-certificates"
+        ],
+        "zypper": [
+          "curl",
+          "ca-certificates"
+        ],
+        "apk": [
+          "curl",
+          "ca-certificates"
+        ],
+        "xbps": [
+          "curl",
+          "ca-certificates"
+        ],
+        "emerge": [
+          "net-misc/curl",
+          "app-misc/ca-certificates"
+        ],
+        "nix": [
+          "curl",
+          "cacert"
+        ],
+        "brew": [
+          "curl"
+        ],
+        "winget": [
+          "cURL.cURL"
+        ],
+        "yum": [
+          "curl",
+          "ca-certificates"
+        ]
+      }
+    },
+    {
+      "id": "wget",
+      "category": "core",
+      "name": "Wget downloader",
+      "packages": {
+        "apt": [
+          "wget"
+        ],
+        "dnf": [
+          "wget"
+        ],
+        "pacman": [
+          "wget"
+        ],
+        "zypper": [
+          "wget"
+        ],
+        "apk": [
+          "wget"
+        ],
+        "xbps": [
+          "wget"
+        ],
+        "emerge": [
+          "net-misc/wget"
+        ],
+        "nix": [
+          "wget"
+        ],
+        "brew": [
+          "wget"
+        ],
+        "winget": [
+          "GNU.Wget2"
+        ],
+        "yum": [
+          "wget"
+        ]
+      }
+    },
+    {
+      "id": "jq",
+      "category": "core",
+      "name": "JSON processor",
+      "packages": {
+        "apt": [
+          "jq"
+        ],
+        "dnf": [
+          "jq"
+        ],
+        "pacman": [
+          "jq"
+        ],
+        "zypper": [
+          "jq"
+        ],
+        "apk": [
+          "jq"
+        ],
+        "xbps": [
+          "jq"
+        ],
+        "emerge": [
+          "app-misc/jq"
+        ],
+        "nix": [
+          "jq"
+        ],
+        "brew": [
+          "jq"
+        ],
+        "winget": [
+          "jqlang.jq"
+        ],
+        "yum": [
+          "jq"
+        ]
+      }
+    },
+    {
+      "id": "ripgrep",
+      "category": "core",
+      "name": "Fast code search",
+      "packages": {
+        "apt": [
+          "ripgrep"
+        ],
+        "dnf": [
+          "ripgrep"
+        ],
+        "pacman": [
+          "ripgrep"
+        ],
+        "zypper": [
+          "ripgrep"
+        ],
+        "apk": [
+          "ripgrep"
+        ],
+        "xbps": [
+          "ripgrep"
+        ],
+        "emerge": [
+          "sys-apps/ripgrep"
+        ],
+        "nix": [
+          "ripgrep"
+        ],
+        "brew": [
+          "ripgrep"
+        ],
+        "winget": [
+          "BurntSushi.ripgrep.MSVC"
+        ],
+        "yum": [
+          "ripgrep"
+        ]
+      }
+    },
+    {
+      "id": "fd",
+      "category": "core",
+      "name": "Fast file search",
+      "packages": {
+        "apt": [
+          "fd-find"
+        ],
+        "dnf": [
+          "fd-find"
+        ],
+        "pacman": [
+          "fd"
+        ],
+        "zypper": [
+          "fd"
+        ],
+        "apk": [
+          "fd"
+        ],
+        "xbps": [
+          "fd"
+        ],
+        "emerge": [
+          "sys-apps/fd"
+        ],
+        "nix": [
+          "fd"
+        ],
+        "brew": [
+          "fd"
+        ],
+        "winget": [
+          "sharkdp.fd"
+        ],
+        "yum": [
+          "fd-find"
+        ]
+      },
+      "notes": "Debian/Ubuntu may name the command fdfind."
+    },
+    {
+      "id": "fzf",
+      "category": "core",
+      "name": "Fuzzy finder",
+      "packages": {
+        "apt": [
+          "fzf"
+        ],
+        "dnf": [
+          "fzf"
+        ],
+        "pacman": [
+          "fzf"
+        ],
+        "zypper": [
+          "fzf"
+        ],
+        "apk": [
+          "fzf"
+        ],
+        "xbps": [
+          "fzf"
+        ],
+        "emerge": [
+          "app-shells/fzf"
+        ],
+        "nix": [
+          "fzf"
+        ],
+        "brew": [
+          "fzf"
+        ],
+        "winget": [
+          "junegunn.fzf"
+        ],
+        "yum": [
+          "fzf"
+        ]
+      }
+    },
+    {
+      "id": "bat",
+      "category": "core",
+      "name": "Syntax-aware file viewer",
+      "packages": {
+        "apt": [
+          "bat"
+        ],
+        "dnf": [
+          "bat"
+        ],
+        "pacman": [
+          "bat"
+        ],
+        "zypper": [
+          "bat"
+        ],
+        "apk": [
+          "bat"
+        ],
+        "xbps": [
+          "bat"
+        ],
+        "emerge": [
+          "sys-apps/bat"
+        ],
+        "nix": [
+          "bat"
+        ],
+        "brew": [
+          "bat"
+        ],
+        "winget": [
+          "sharkdp.bat"
+        ],
+        "yum": [
+          "bat"
+        ]
+      },
+      "notes": "Debian/Ubuntu may name the command batcat."
+    },
+    {
+      "id": "tmux",
+      "category": "core",
+      "name": "Terminal multiplexer",
+      "packages": {
+        "apt": [
+          "tmux"
+        ],
+        "dnf": [
+          "tmux"
+        ],
+        "pacman": [
+          "tmux"
+        ],
+        "zypper": [
+          "tmux"
+        ],
+        "apk": [
+          "tmux"
+        ],
+        "xbps": [
+          "tmux"
+        ],
+        "emerge": [
+          "app-misc/tmux"
+        ],
+        "nix": [
+          "tmux"
+        ],
+        "brew": [
+          "tmux"
+        ],
+        "yum": [
+          "tmux"
+        ]
+      },
+      "platforms": [
+        "linux",
+        "macos"
+      ]
+    },
+    {
+      "id": "direnv",
+      "category": "core",
+      "name": "Per-project environment variables",
+      "packages": {
+        "apt": [
+          "direnv"
+        ],
+        "dnf": [
+          "direnv"
+        ],
+        "pacman": [
+          "direnv"
+        ],
+        "zypper": [
+          "direnv"
+        ],
+        "apk": [
+          "direnv"
+        ],
+        "xbps": [
+          "direnv"
+        ],
+        "emerge": [
+          "app-shells/direnv"
+        ],
+        "nix": [
+          "direnv"
+        ],
+        "brew": [
+          "direnv"
+        ],
+        "winget": [
+          "direnv.direnv"
+        ],
+        "yum": [
+          "direnv"
+        ]
+      },
+      "notes": "Add the appropriate direnv hook to your shell configuration to activate it."
+    },
+    {
+      "id": "shellcheck",
+      "category": "core",
+      "name": "Shell script diagnostics",
+      "packages": {
+        "apt": [
+          "shellcheck"
+        ],
+        "dnf": [
+          "ShellCheck"
+        ],
+        "pacman": [
+          "shellcheck"
+        ],
+        "zypper": [
+          "ShellCheck"
+        ],
+        "apk": [
+          "shellcheck"
+        ],
+        "xbps": [
+          "ShellCheck"
+        ],
+        "emerge": [
+          "dev-util/shellcheck"
+        ],
+        "nix": [
+          "shellcheck"
+        ],
+        "brew": [
+          "shellcheck"
+        ],
+        "winget": [
+          "koalaman.shellcheck"
+        ],
+        "yum": [
+          "ShellCheck"
+        ]
+      }
+    },
+    {
+      "id": "build-tools",
+      "category": "build",
+      "name": "C/C++ compiler, Make, and development headers",
+      "packages": {
+        "apt": [
+          "build-essential",
+          "pkg-config"
+        ],
+        "dnf": [
+          "gcc",
+          "gcc-c++",
+          "make",
+          "pkgconf-pkg-config"
+        ],
+        "pacman": [
+          "base-devel"
+        ],
+        "zypper": [
+          "gcc",
+          "gcc-c++",
+          "make",
+          "pkg-config"
+        ],
+        "apk": [
+          "build-base",
+          "pkgconf"
+        ],
+        "xbps": [
+          "base-devel"
+        ],
+        "emerge": [
+          "sys-devel/gcc",
+          "dev-build/make",
+          "dev-build/pkgconf"
+        ],
+        "nix": [
+          "gcc",
+          "gnumake",
+          "pkg-config"
+        ],
+        "brew": [
+          "make",
+          "pkgconf"
+        ],
+        "winget": [
+          "Microsoft.VisualStudio.2022.BuildTools"
+        ],
+        "yum": [
+          "gcc",
+          "gcc-c++",
+          "make",
+          "pkgconf-pkg-config"
+        ]
+      },
+      "winget_override": "--wait --passive --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
+    },
+    {
+      "id": "cmake",
+      "category": "build",
+      "name": "CMake build generator",
+      "packages": {
+        "apt": [
+          "cmake"
+        ],
+        "dnf": [
+          "cmake"
+        ],
+        "pacman": [
+          "cmake"
+        ],
+        "zypper": [
+          "cmake"
+        ],
+        "apk": [
+          "cmake"
+        ],
+        "xbps": [
+          "cmake"
+        ],
+        "emerge": [
+          "dev-build/cmake"
+        ],
+        "nix": [
+          "cmake"
+        ],
+        "brew": [
+          "cmake"
+        ],
+        "winget": [
+          "Kitware.CMake"
+        ],
+        "yum": [
+          "cmake"
+        ]
+      }
+    },
+    {
+      "id": "ninja",
+      "category": "build",
+      "name": "Ninja build runner",
+      "packages": {
+        "apt": [
+          "ninja-build"
+        ],
+        "dnf": [
+          "ninja-build"
+        ],
+        "pacman": [
+          "ninja"
+        ],
+        "zypper": [
+          "ninja"
+        ],
+        "apk": [
+          "ninja"
+        ],
+        "xbps": [
+          "ninja"
+        ],
+        "emerge": [
+          "dev-build/ninja"
+        ],
+        "nix": [
+          "ninja"
+        ],
+        "brew": [
+          "ninja"
+        ],
+        "winget": [
+          "Ninja-build.Ninja"
+        ],
+        "yum": [
+          "ninja-build"
+        ]
+      }
+    },
+    {
+      "id": "llvm",
+      "category": "build",
+      "name": "Clang and LLVM toolchain",
+      "packages": {
+        "apt": [
+          "clang",
+          "lldb"
+        ],
+        "dnf": [
+          "clang",
+          "lldb"
+        ],
+        "pacman": [
+          "clang",
+          "lldb"
+        ],
+        "zypper": [
+          "clang",
+          "lldb"
+        ],
+        "apk": [
+          "clang",
+          "lldb"
+        ],
+        "xbps": [
+          "clang",
+          "lldb"
+        ],
+        "emerge": [
+          "llvm-core/clang",
+          "llvm-core/lldb"
+        ],
+        "nix": [
+          "clang",
+          "lldb"
+        ],
+        "brew": [
+          "llvm"
+        ],
+        "winget": [
+          "LLVM.LLVM"
+        ],
+        "yum": [
+          "clang",
+          "lldb"
+        ]
+      }
+    },
+    {
+      "id": "debugger",
+      "category": "build",
+      "name": "Native debugger",
+      "packages": {
+        "apt": [
+          "gdb"
+        ],
+        "dnf": [
+          "gdb"
+        ],
+        "pacman": [
+          "gdb"
+        ],
+        "zypper": [
+          "gdb"
+        ],
+        "apk": [
+          "gdb"
+        ],
+        "xbps": [
+          "gdb"
+        ],
+        "emerge": [
+          "sys-devel/gdb"
+        ],
+        "nix": [
+          "gdb"
+        ],
+        "brew": [
+          "gdb"
+        ],
+        "yum": [
+          "gdb"
+        ]
+      },
+      "notes": "macOS gdb requires code signing; LLDB is also included through the llvm tool.",
+      "platforms": [
+        "linux",
+        "macos"
+      ]
+    },
+    {
+      "id": "python",
+      "category": "languages",
+      "name": "Python 3, pip, and virtual environments",
+      "packages": {
+        "apt": [
+          "python3",
+          "python3-pip",
+          "python3-venv",
+          "python3-dev"
+        ],
+        "dnf": [
+          "python3",
+          "python3-pip",
+          "python3-devel"
+        ],
+        "pacman": [
+          "python",
+          "python-pip"
+        ],
+        "zypper": [
+          "python3",
+          "python3-pip",
+          "python3-devel"
+        ],
+        "apk": [
+          "python3",
+          "py3-pip",
+          "python3-dev"
+        ],
+        "xbps": [
+          "python3",
+          "python3-pip",
+          "python3-devel"
+        ],
+        "emerge": [
+          "dev-lang/python",
+          "dev-python/pip",
+          "dev-python/virtualenv"
+        ],
+        "nix": [
+          "python3",
+          "python3Packages.pip",
+          "python3Packages.virtualenv"
+        ],
+        "brew": [
+          "python@3.14"
+        ],
+        "winget": [
+          "Python.Python.3.13"
+        ],
+        "yum": [
+          "python3",
+          "python3-pip",
+          "python3-devel"
+        ]
+      }
+    },
+    {
+      "id": "pipx",
+      "category": "languages",
+      "name": "Isolated Python command-line applications",
+      "packages": {
+        "apt": [
+          "pipx"
+        ],
+        "dnf": [
+          "pipx"
+        ],
+        "pacman": [
+          "python-pipx"
+        ],
+        "zypper": [
+          "python3-pipx"
+        ],
+        "apk": [
+          "pipx"
+        ],
+        "xbps": [
+          "pipx"
+        ],
+        "emerge": [
+          "dev-python/pipx"
+        ],
+        "nix": [
+          "pipx"
+        ],
+        "brew": [
+          "pipx"
+        ],
+        "yum": [
+          "pipx"
+        ]
+      },
+      "requires": [
+        "python"
+      ],
+      "fallbacks": {
+        "winget": "pipx"
+      }
+    },
+    {
+      "id": "node",
+      "category": "languages",
+      "name": "Node.js and npm (distribution release; LTS on Windows)",
+      "packages": {
+        "apt": [
+          "nodejs",
+          "npm"
+        ],
+        "dnf": [
+          "nodejs",
+          "npm"
+        ],
+        "pacman": [
+          "nodejs-lts-jod",
+          "npm"
+        ],
+        "zypper": [
+          "nodejs",
+          "npm"
+        ],
+        "apk": [
+          "nodejs",
+          "npm"
+        ],
+        "xbps": [
+          "nodejs"
+        ],
+        "emerge": [
+          "net-libs/nodejs"
+        ],
+        "nix": [
+          "nodejs_22"
+        ],
+        "brew": [
+          "node"
+        ],
+        "winget": [
+          "OpenJS.NodeJS.LTS"
+        ],
+        "yum": [
+          "nodejs",
+          "npm"
+        ]
+      }
+    },
+    {
+      "id": "go",
+      "category": "languages",
+      "name": "Go toolchain",
+      "packages": {
+        "apt": [
+          "golang-go"
+        ],
+        "dnf": [
+          "golang"
+        ],
+        "pacman": [
+          "go"
+        ],
+        "zypper": [
+          "go"
+        ],
+        "apk": [
+          "go"
+        ],
+        "xbps": [
+          "go"
+        ],
+        "emerge": [
+          "dev-lang/go"
+        ],
+        "nix": [
+          "go"
+        ],
+        "brew": [
+          "go"
+        ],
+        "winget": [
+          "GoLang.Go"
+        ],
+        "yum": [
+          "golang"
+        ]
+      }
+    },
+    {
+      "id": "rust",
+      "category": "languages",
+      "name": "Rust compiler and Cargo",
+      "packages": {
+        "apt": [
+          "rustc",
+          "cargo"
+        ],
+        "dnf": [
+          "rust",
+          "cargo"
+        ],
+        "pacman": [
+          "rust"
+        ],
+        "zypper": [
+          "rust",
+          "cargo"
+        ],
+        "apk": [
+          "rust",
+          "cargo"
+        ],
+        "xbps": [
+          "rust",
+          "cargo"
+        ],
+        "emerge": [
+          "dev-lang/rust"
+        ],
+        "nix": [
+          "rustc",
+          "cargo"
+        ],
+        "brew": [
+          "rust"
+        ],
+        "winget": [
+          "Rustlang.Rustup"
+        ],
+        "yum": [
+          "rust",
+          "cargo"
+        ]
+      },
+      "requires": [
+        "build-tools"
+      ]
+    },
+    {
+      "id": "java",
+      "category": "languages",
+      "name": "OpenJDK development kit",
+      "packages": {
+        "apt": [
+          "default-jdk"
+        ],
+        "dnf": [
+          "java-21-openjdk-devel"
+        ],
+        "pacman": [
+          "jdk-openjdk"
+        ],
+        "zypper": [
+          "java-21-openjdk-devel"
+        ],
+        "apk": [
+          "openjdk21"
+        ],
+        "xbps": [
+          "openjdk21"
+        ],
+        "emerge": [
+          "virtual/jdk"
+        ],
+        "nix": [
+          "jdk"
+        ],
+        "brew": [
+          "openjdk"
+        ],
+        "winget": [
+          "EclipseAdoptium.Temurin.21.JDK"
+        ],
+        "yum": [
+          "java-21-openjdk-devel"
+        ]
+      },
+      "notes": "Homebrew: use the openjdk prefix to set JAVA_HOME if your build needs it."
+    },
+    {
+      "id": "maven",
+      "category": "languages",
+      "name": "Maven JVM build tool",
+      "packages": {
+        "apt": [
+          "maven"
+        ],
+        "dnf": [
+          "maven"
+        ],
+        "pacman": [
+          "maven"
+        ],
+        "zypper": [
+          "maven"
+        ],
+        "apk": [
+          "maven"
+        ],
+        "xbps": [
+          "apache-maven"
+        ],
+        "emerge": [
+          "dev-java/maven-bin"
+        ],
+        "nix": [
+          "maven"
+        ],
+        "brew": [
+          "maven"
+        ],
+        "yum": [
+          "maven"
+        ]
+      },
+      "requires": [
+        "java"
+      ],
+      "fallbacks": {
+        "winget": "maven"
+      },
+      "notes": "On Windows, add the displayed devprep installation bin directory to your user PATH."
+    },
+    {
+      "id": "gradle",
+      "category": "languages",
+      "name": "Gradle JVM build tool",
+      "packages": {
+        "apt": [
+          "gradle"
+        ],
+        "dnf": [
+          "gradle"
+        ],
+        "pacman": [
+          "gradle"
+        ],
+        "zypper": [
+          "gradle"
+        ],
+        "apk": [
+          "gradle"
+        ],
+        "xbps": [
+          "gradle"
+        ],
+        "emerge": [
+          "dev-java/gradle"
+        ],
+        "nix": [
+          "gradle"
+        ],
+        "brew": [
+          "gradle"
+        ],
+        "yum": [
+          "gradle"
+        ]
+      },
+      "requires": [
+        "java"
+      ],
+      "fallbacks": {
+        "winget": "gradle"
+      },
+      "notes": "On Windows, add the displayed devprep installation bin directory to your user PATH."
+    },
+    {
+      "id": "dotnet",
+      "category": "languages",
+      "name": ".NET SDK",
+      "packages": {
+        "apt": [
+          "dotnet-sdk-8.0"
+        ],
+        "dnf": [
+          "dotnet-sdk-8.0"
+        ],
+        "pacman": [
+          "dotnet-sdk"
+        ],
+        "zypper": [
+          "dotnet-sdk-8.0"
+        ],
+        "apk": [
+          "dotnet8-sdk"
+        ],
+        "emerge": [
+          "dev-dotnet/dotnet-sdk-bin"
+        ],
+        "nix": [
+          "dotnet-sdk_8"
+        ],
+        "brew": [
+          "dotnet"
+        ],
+        "winget": [
+          "Microsoft.DotNet.SDK.8"
+        ],
+        "yum": [
+          "dotnet-sdk-8.0"
+        ]
+      }
+    },
+    {
+      "id": "ruby",
+      "category": "languages",
+      "name": "Ruby and RubyGems",
+      "packages": {
+        "apt": [
+          "ruby-full"
+        ],
+        "dnf": [
+          "ruby",
+          "ruby-devel",
+          "rubygems"
+        ],
+        "pacman": [
+          "ruby"
+        ],
+        "zypper": [
+          "ruby",
+          "ruby-devel"
+        ],
+        "apk": [
+          "ruby",
+          "ruby-dev"
+        ],
+        "xbps": [
+          "ruby",
+          "ruby-devel"
+        ],
+        "emerge": [
+          "dev-lang/ruby"
+        ],
+        "nix": [
+          "ruby"
+        ],
+        "brew": [
+          "ruby"
+        ],
+        "winget": [
+          "RubyInstallerTeam.RubyWithDevKit.3.3"
+        ],
+        "yum": [
+          "ruby",
+          "ruby-devel",
+          "rubygems"
+        ]
+      }
+    },
+    {
+      "id": "php",
+      "category": "languages",
+      "name": "PHP command-line runtime",
+      "packages": {
+        "apt": [
+          "php-cli",
+          "php-dev"
+        ],
+        "dnf": [
+          "php-cli",
+          "php-devel"
+        ],
+        "pacman": [
+          "php"
+        ],
+        "zypper": [
+          "php8",
+          "php8-devel"
+        ],
+        "apk": [
+          "php83",
+          "php83-dev"
+        ],
+        "xbps": [
+          "php",
+          "php-devel"
+        ],
+        "emerge": [
+          "dev-lang/php"
+        ],
+        "nix": [
+          "php"
+        ],
+        "brew": [
+          "php"
+        ],
+        "winget": [
+          "PHP.PHP.8.3"
+        ],
+        "yum": [
+          "php-cli",
+          "php-devel"
+        ]
+      }
+    },
+    {
+      "id": "composer",
+      "category": "languages",
+      "name": "PHP dependency manager",
+      "packages": {
+        "apt": [
+          "composer"
+        ],
+        "dnf": [
+          "composer"
+        ],
+        "pacman": [
+          "composer"
+        ],
+        "zypper": [
+          "php-composer2"
+        ],
+        "apk": [
+          "composer"
+        ],
+        "xbps": [
+          "composer"
+        ],
+        "emerge": [
+          "dev-php/composer"
+        ],
+        "nix": [
+          "phpPackages.composer"
+        ],
+        "brew": [
+          "composer"
+        ],
+        "yum": [
+          "composer"
+        ]
+      },
+      "requires": [
+        "php"
+      ],
+      "fallbacks": {
+        "winget": "composer"
+      },
+      "notes": "On Windows, add the displayed devprep installation bin directory to your user PATH."
+    },
+    {
+      "id": "lua",
+      "category": "languages",
+      "name": "Lua interpreter",
+      "packages": {
+        "apt": [
+          "lua5.4"
+        ],
+        "dnf": [
+          "lua"
+        ],
+        "pacman": [
+          "lua"
+        ],
+        "zypper": [
+          "lua54"
+        ],
+        "apk": [
+          "lua5.4"
+        ],
+        "xbps": [
+          "lua"
+        ],
+        "emerge": [
+          "dev-lang/lua"
+        ],
+        "nix": [
+          "lua"
+        ],
+        "brew": [
+          "lua"
+        ],
+        "yum": [
+          "lua"
+        ],
+        "winget": [
+          "DEVCOM.Lua"
+        ]
+      }
+    },
+    {
+      "id": "neovim",
+      "category": "editors",
+      "name": "Neovim terminal editor",
+      "packages": {
+        "apt": [
+          "neovim"
+        ],
+        "dnf": [
+          "neovim"
+        ],
+        "pacman": [
+          "neovim"
+        ],
+        "zypper": [
+          "neovim"
+        ],
+        "apk": [
+          "neovim"
+        ],
+        "xbps": [
+          "neovim"
+        ],
+        "emerge": [
+          "app-editors/neovim"
+        ],
+        "nix": [
+          "neovim"
+        ],
+        "brew": [
+          "neovim"
+        ],
+        "winget": [
+          "Neovim.Neovim"
+        ],
+        "yum": [
+          "neovim"
+        ]
+      }
+    },
+    {
+      "id": "vscode",
+      "category": "editors",
+      "name": "Visual Studio Code / Code OSS",
+      "packages": {
+        "pacman": [
+          "code"
+        ],
+        "emerge": [
+          "app-editors/vscode"
+        ],
+        "nix": [
+          "vscode"
+        ],
+        "brew": [
+          "visual-studio-code"
+        ],
+        "winget": [
+          "Microsoft.VisualStudioCode"
+        ]
+      },
+      "cask": true,
+      "notes": "Linux tarball fallback needs a graphical desktop and glibc. Code OSS is used on Arch. Nixpkgs vscode requires allowing unfree packages."
+    },
+    {
+      "id": "docker",
+      "category": "containers",
+      "name": "Docker Engine or Docker Desktop",
+      "packages": {
+        "apt": [
+          "docker.io"
+        ],
+        "dnf": [
+          "moby-engine"
+        ],
+        "pacman": [
+          "docker"
+        ],
+        "zypper": [
+          "docker"
+        ],
+        "apk": [
+          "docker"
+        ],
+        "xbps": [
+          "docker"
+        ],
+        "emerge": [
+          "app-containers/docker"
+        ],
+        "nix": [
+          "docker"
+        ],
+        "brew": [
+          "docker-desktop"
+        ],
+        "winget": [
+          "Docker.DockerDesktop"
+        ],
+        "yum": [
+          "moby-engine"
+        ]
+      },
+      "cask": true,
+      "notes": "Linux: enable the Docker service using your init system. macOS/Windows: launch Docker Desktop and finish its setup; licensing and virtualization requirements apply."
+    },
+    {
+      "id": "compose",
+      "category": "containers",
+      "name": "Docker Compose",
+      "packages": {
+        "apt": [
+          "docker-compose-v2"
+        ],
+        "dnf": [
+          "docker-compose"
+        ],
+        "pacman": [
+          "docker-compose"
+        ],
+        "zypper": [
+          "docker-compose"
+        ],
+        "apk": [
+          "docker-cli-compose"
+        ],
+        "xbps": [
+          "docker-compose"
+        ],
+        "emerge": [
+          "app-containers/docker-compose"
+        ],
+        "nix": [
+          "docker-compose"
+        ],
+        "yum": [
+          "docker-compose"
+        ]
+      },
+      "requires": [
+        "docker"
+      ]
+    },
+    {
+      "id": "podman",
+      "category": "containers",
+      "name": "Daemonless containers",
+      "packages": {
+        "apt": [
+          "podman"
+        ],
+        "dnf": [
+          "podman"
+        ],
+        "pacman": [
+          "podman"
+        ],
+        "zypper": [
+          "podman"
+        ],
+        "apk": [
+          "podman"
+        ],
+        "xbps": [
+          "podman"
+        ],
+        "emerge": [
+          "app-containers/podman"
+        ],
+        "nix": [
+          "podman"
+        ],
+        "brew": [
+          "podman"
+        ],
+        "winget": [
+          "RedHat.Podman"
+        ],
+        "yum": [
+          "podman"
+        ]
+      },
+      "notes": "On macOS/Windows run podman machine init, then podman machine start."
+    },
+    {
+      "id": "kubectl",
+      "category": "containers",
+      "name": "Kubernetes command-line client",
+      "packages": {
+        "apt": [
+          "kubernetes-client"
+        ],
+        "dnf": [
+          "kubernetes-client"
+        ],
+        "pacman": [
+          "kubectl"
+        ],
+        "zypper": [
+          "kubernetes-client"
+        ],
+        "apk": [
+          "kubectl"
+        ],
+        "xbps": [
+          "kubernetes"
+        ],
+        "emerge": [
+          "sys-cluster/kubectl"
+        ],
+        "nix": [
+          "kubectl"
+        ],
+        "brew": [
+          "kubernetes-cli"
+        ],
+        "winget": [
+          "Kubernetes.kubectl"
+        ],
+        "yum": [
+          "kubernetes-client"
+        ]
+      }
+    },
+    {
+      "id": "helm",
+      "category": "containers",
+      "name": "Kubernetes package manager",
+      "packages": {
+        "dnf": [
+          "helm"
+        ],
+        "pacman": [
+          "helm"
+        ],
+        "zypper": [
+          "helm"
+        ],
+        "apk": [
+          "helm"
+        ],
+        "xbps": [
+          "helm"
+        ],
+        "emerge": [
+          "app-admin/helm"
+        ],
+        "nix": [
+          "kubernetes-helm"
+        ],
+        "brew": [
+          "helm"
+        ],
+        "winget": [
+          "Helm.Helm"
+        ],
+        "yum": [
+          "helm"
+        ]
+      }
+    },
+    {
+      "id": "sqlite",
+      "category": "databases",
+      "name": "SQLite database tools",
+      "packages": {
+        "apt": [
+          "sqlite3",
+          "libsqlite3-dev"
+        ],
+        "dnf": [
+          "sqlite",
+          "sqlite-devel"
+        ],
+        "pacman": [
+          "sqlite"
+        ],
+        "zypper": [
+          "sqlite3",
+          "sqlite3-devel"
+        ],
+        "apk": [
+          "sqlite",
+          "sqlite-dev"
+        ],
+        "xbps": [
+          "sqlite",
+          "sqlite-devel"
+        ],
+        "emerge": [
+          "dev-db/sqlite"
+        ],
+        "nix": [
+          "sqlite"
+        ],
+        "brew": [
+          "sqlite"
+        ],
+        "winget": [
+          "SQLite.SQLite"
+        ],
+        "yum": [
+          "sqlite",
+          "sqlite-devel"
+        ]
+      }
+    },
+    {
+      "id": "postgresql",
+      "category": "databases",
+      "name": "PostgreSQL server and client",
+      "packages": {
+        "apt": [
+          "postgresql",
+          "postgresql-client",
+          "libpq-dev"
+        ],
+        "dnf": [
+          "postgresql-server",
+          "postgresql",
+          "postgresql-devel"
+        ],
+        "pacman": [
+          "postgresql"
+        ],
+        "zypper": [
+          "postgresql-server",
+          "postgresql",
+          "postgresql-devel"
+        ],
+        "apk": [
+          "postgresql",
+          "postgresql-client",
+          "postgresql-dev"
+        ],
+        "xbps": [
+          "postgresql",
+          "postgresql-client",
+          "postgresql-devel"
+        ],
+        "emerge": [
+          "dev-db/postgresql"
+        ],
+        "nix": [
+          "postgresql"
+        ],
+        "brew": [
+          "postgresql@17"
+        ],
+        "winget": [
+          "PostgreSQL.PostgreSQL.17"
+        ],
+        "yum": [
+          "postgresql-server",
+          "postgresql",
+          "postgresql-devel"
+        ]
+      },
+      "notes": "Initialize a database cluster if your distribution requires it. Native packages may start a local service; set authentication before sharing it."
+    },
+    {
+      "id": "redis",
+      "category": "databases",
+      "name": "Redis key-value database",
+      "packages": {
+        "apt": [
+          "redis-server"
+        ],
+        "dnf": [
+          "redis"
+        ],
+        "pacman": [
+          "redis"
+        ],
+        "zypper": [
+          "redis"
+        ],
+        "apk": [
+          "redis"
+        ],
+        "xbps": [
+          "redis"
+        ],
+        "emerge": [
+          "dev-db/redis"
+        ],
+        "nix": [
+          "redis"
+        ],
+        "brew": [
+          "redis"
+        ],
+        "yum": [
+          "redis"
+        ]
+      },
+      "platforms": [
+        "linux",
+        "macos"
+      ]
+    },
+    {
+      "id": "dbeaver",
+      "category": "databases",
+      "name": "DBeaver Community database GUI",
+      "packages": {
+        "pacman": [
+          "dbeaver"
+        ],
+        "emerge": [
+          "dev-db/dbeaver"
+        ],
+        "nix": [
+          "dbeaver-bin"
+        ],
+        "brew": [
+          "dbeaver-community"
+        ],
+        "winget": [
+          "DBeaver.DBeaver.Community"
+        ]
+      },
+      "cask": true
+    },
+    {
+      "id": "aws",
+      "category": "cloud",
+      "name": "AWS command-line tools",
+      "packages": {
+        "apt": [
+          "awscli"
+        ],
+        "dnf": [
+          "awscli2"
+        ],
+        "pacman": [
+          "aws-cli-v2"
+        ],
+        "zypper": [
+          "aws-cli"
+        ],
+        "apk": [
+          "aws-cli"
+        ],
+        "xbps": [
+          "aws-cli"
+        ],
+        "emerge": [
+          "dev-python/awscli"
+        ],
+        "nix": [
+          "awscli2"
+        ],
+        "brew": [
+          "awscli"
+        ],
+        "winget": [
+          "Amazon.AWSCLI"
+        ],
+        "yum": [
+          "awscli2"
+        ]
+      }
+    },
+    {
+      "id": "opentofu",
+      "category": "cloud",
+      "name": "OpenTofu infrastructure as code",
+      "packages": {
+        "pacman": [
+          "opentofu"
+        ],
+        "apk": [
+          "opentofu"
+        ],
+        "emerge": [
+          "app-admin/opentofu"
+        ],
+        "nix": [
+          "opentofu"
+        ],
+        "brew": [
+          "opentofu"
+        ],
+        "winget": [
+          "OpenTofu.Tofu"
+        ]
+      }
+    },
+    {
+      "id": "ansible",
+      "category": "cloud",
+      "name": "Ansible automation",
+      "packages": {
+        "apt": [
+          "ansible"
+        ],
+        "dnf": [
+          "ansible"
+        ],
+        "pacman": [
+          "ansible"
+        ],
+        "zypper": [
+          "ansible"
+        ],
+        "apk": [
+          "ansible"
+        ],
+        "xbps": [
+          "ansible"
+        ],
+        "emerge": [
+          "app-admin/ansible"
+        ],
+        "nix": [
+          "ansible"
+        ],
+        "brew": [
+          "ansible"
+        ],
+        "yum": [
+          "ansible"
+        ]
+      },
+      "platforms": [
+        "linux",
+        "macos"
+      ]
+    },
+    {
+      "id": "r",
+      "category": "science",
+      "name": "R statistical computing",
+      "packages": {
+        "apt": [
+          "r-base",
+          "r-base-dev"
+        ],
+        "dnf": [
+          "R"
+        ],
+        "pacman": [
+          "r"
+        ],
+        "zypper": [
+          "R-base",
+          "R-base-devel"
+        ],
+        "apk": [
+          "R",
+          "R-dev"
+        ],
+        "xbps": [
+          "R"
+        ],
+        "emerge": [
+          "dev-lang/R"
+        ],
+        "nix": [
+          "R"
+        ],
+        "brew": [
+          "r"
+        ],
+        "winget": [
+          "RProject.R"
+        ],
+        "yum": [
+          "R"
+        ]
+      }
+    },
+    {
+      "id": "julia",
+      "category": "science",
+      "name": "Julia scientific language",
+      "packages": {
+        "pacman": [
+          "julia"
+        ],
+        "zypper": [
+          "julia"
+        ],
+        "xbps": [
+          "julia"
+        ],
+        "emerge": [
+          "dev-lang/julia"
+        ],
+        "nix": [
+          "julia"
+        ],
+        "brew": [
+          "julia-app"
+        ],
+        "winget": [
+          "Julialang.Julia"
+        ]
+      },
+      "cask": true
+    },
+    {
+      "id": "octave",
+      "category": "science",
+      "name": "GNU Octave numerical computing",
+      "packages": {
+        "apt": [
+          "octave"
+        ],
+        "dnf": [
+          "octave"
+        ],
+        "pacman": [
+          "octave"
+        ],
+        "zypper": [
+          "octave"
+        ],
+        "apk": [
+          "octave"
+        ],
+        "xbps": [
+          "octave"
+        ],
+        "emerge": [
+          "sci-mathematics/octave"
+        ],
+        "nix": [
+          "octave"
+        ],
+        "brew": [
+          "octave"
+        ],
+        "winget": [
+          "GNU.Octave"
+        ],
+        "yum": [
+          "octave"
+        ]
+      }
+    },
+    {
+      "id": "graphviz",
+      "category": "science",
+      "name": "Graph visualization tools",
+      "packages": {
+        "apt": [
+          "graphviz"
+        ],
+        "dnf": [
+          "graphviz"
+        ],
+        "pacman": [
+          "graphviz"
+        ],
+        "zypper": [
+          "graphviz"
+        ],
+        "apk": [
+          "graphviz"
+        ],
+        "xbps": [
+          "graphviz"
+        ],
+        "emerge": [
+          "media-gfx/graphviz"
+        ],
+        "nix": [
+          "graphviz"
+        ],
+        "brew": [
+          "graphviz"
+        ],
+        "winget": [
+          "Graphviz.Graphviz"
+        ],
+        "yum": [
+          "graphviz"
+        ]
+      }
+    },
+    {
+      "id": "pandoc",
+      "category": "science",
+      "name": "Document conversion",
+      "packages": {
+        "apt": [
+          "pandoc"
+        ],
+        "dnf": [
+          "pandoc"
+        ],
+        "pacman": [
+          "pandoc"
+        ],
+        "zypper": [
+          "pandoc"
+        ],
+        "apk": [
+          "pandoc"
+        ],
+        "xbps": [
+          "pandoc"
+        ],
+        "emerge": [
+          "app-text/pandoc"
+        ],
+        "nix": [
+          "pandoc"
+        ],
+        "brew": [
+          "pandoc"
+        ],
+        "winget": [
+          "JohnMacFarlane.Pandoc"
+        ],
+        "yum": [
+          "pandoc"
+        ]
+      }
+    },
+    {
+      "id": "notebooks",
+      "category": "science",
+      "name": "JupyterLab, NumPy, SciPy, pandas, matplotlib, SymPy, scikit-learn, pytest and Ruff",
+      "requires": [
+        "python",
+        "build-tools"
+      ],
+      "recipe": "notebooks",
+      "packages": {},
+      "notes": "An isolated devprep virtual environment; run it with python -m devprep --launch-notebooks. Packages are resolved from PyPI for the selected Python."
+    }
+  ]
+}
