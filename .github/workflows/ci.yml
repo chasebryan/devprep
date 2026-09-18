@@ -33,7 +33,13 @@ jobs:
         run: sh -n install.sh && ./install.sh --dry-run --tools git,python
       - if: runner.os == 'Windows'
         shell: powershell
-        run: .\install.ps1 --dry-run --tools git,python
+        run: |
+          $unquoted = .\install.ps1 --json --tools git,python | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0) { throw 'Unquoted selection failed' }
+          $quoted = .\install.ps1 --json --tools 'git,python' | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0) { throw 'Quoted selection failed' }
+          if (($unquoted.steps.id -join ',') -ne 'git,python') { throw 'Wrong unquoted selection' }
+          if (($quoted.steps.id -join ',') -ne 'git,python') { throw 'Wrong quoted selection' }
 
   linux-install-smoke:
     # Real installations only inside disposable containers; never provision the runner host.

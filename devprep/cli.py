@@ -49,7 +49,7 @@ def choose_categories(catalog):
     names = list(catalog["categories"])
     print("\nChoose categories (comma-separated names or numbers):")
     for i, name in enumerate(names, 1):
-        print("  " + str(i) + ". " + name + " — " + catalog["categories"][name])
+        print("  " + str(i) + ". " + name + " - " + catalog["categories"][name])
     values = csv(input("Categories (blank cancels): "))
     if not values:
         raise ValueError("No categories selected; cancelled.")
@@ -64,7 +64,7 @@ def choose_categories(catalog):
 
 
 def print_plan(plan, no_refresh=False):
-    print("devprep — " + plan.host.distro + " / " + plan.host.arch + " / " + plan.host.manager)
+    print("devprep - " + plan.host.distro + " / " + plan.host.arch + " / " + plan.host.manager)
     print("Selected " + str(len(plan.steps)) + " tools. Native packages come from your configured repositories.")
     if plan.refresh and not no_refresh:
         print("Prepare: " + display_command(plan.refresh))
@@ -75,7 +75,7 @@ def print_plan(plan, no_refresh=False):
         if step.category != previous:
             print("\n" + step.category.upper())
             previous = step.category
-        print("  " + step.id + " — " + step.name)
+        print("  " + step.id + " - " + step.name)
         for command in step.commands:
             print("    " + ("[root] " if step.privileged else "") + display_command(command))
         if step.reason:
@@ -101,10 +101,10 @@ def main(argv=None):
         catalog = load_catalog()
         if args.list:
             for category, description in catalog["categories"].items():
-                print(category + " — " + description)
+                print(category + " - " + description)
                 for tool in catalog["tools"]:
                     if tool["category"] == category:
-                        print("  " + tool["id"] + " — " + tool["name"])
+                        print("  " + tool["id"] + " - " + tool["name"])
             return 0
         if args.custom and not args.categories and not args.tools:
             args.categories = choose_categories(catalog)

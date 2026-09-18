@@ -1,6 +1,11 @@
 # Run from a downloaded checkout, using Windows PowerShell 5.1 or PowerShell 7.
 $ErrorActionPreference = 'Stop'
-$devprepArgs = $args
+# PowerShell parses unquoted comma lists as arrays. Preserve each list as one
+# native argument so --tools git,python works just like --tools 'git,python'.
+$devprepArgs = @(foreach ($argument in $args) {
+    if ($argument -is [array]) { $argument -join ',' }
+    else { [string]$argument }
+})
 $preview = @($devprepArgs | Where-Object { $_ -in @('--dry-run', '--json', '--list', '--help', '-h', '--version') }).Count -gt 0
 $assumeYes = @($devprepArgs | Where-Object { $_ -in @('--yes', '-y') }).Count -gt 0
 $env:PYTHONDONTWRITEBYTECODE = '1'
